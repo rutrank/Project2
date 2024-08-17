@@ -41,8 +41,7 @@ function loadItems() {
 function saveItems() {
 
   const stringItems = JSON.stringify(items)
-  localStorage.setItem(storageKey, stringItems)
-
+  localStorage.setItem(storageKey, stringItems) //setItem has key value pair only for the string type both of them
 }
 
 
